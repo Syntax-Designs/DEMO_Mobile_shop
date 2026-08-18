@@ -1,0 +1,25 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-BvTgPRDR.js
+var tsrStartManifest = () => ({ routes: {
+	__root__: {
+		filePath: "D:/final repo/DEMO_Mobile_shop/src/routes/__root.tsx",
+		children: ["/", "/cart"],
+		preloads: ["/assets/index-BYH6_u3d.js"],
+		scripts: [{ attrs: {
+			type: "module",
+			async: !0,
+			src: "/assets/index-BYH6_u3d.js"
+		} }]
+	},
+	"/": {
+		filePath: "D:/final repo/DEMO_Mobile_shop/src/routes/index.tsx",
+		children: void 0,
+		preloads: ["/assets/routes-DfnxK1Pg.js", "/assets/Footer-eiJc1XnV.js"]
+	},
+	"/cart": {
+		filePath: "D:/final repo/DEMO_Mobile_shop/src/routes/cart.tsx",
+		children: void 0,
+		preloads: ["/assets/cart-C9aXHaI4.js", "/assets/Footer-eiJc1XnV.js"]
+	}
+} });
+//#endregion
+export { tsrStartManifest };
